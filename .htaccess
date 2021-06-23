@@ -1,6 +1,6 @@
 eOptions -MultiViews
 RewriteEngine On
-RewriteBase /dashboard
+RewriteBase /qr_scannerAbhi
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.html [QSA,L]
 
